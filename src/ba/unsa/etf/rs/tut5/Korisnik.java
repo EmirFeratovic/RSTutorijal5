@@ -3,7 +3,10 @@ package ba.unsa.etf.rs.tut5;
 import javafx.beans.property.SimpleStringProperty;
 
 public class Korisnik {
-    private SimpleStringProperty ime,prezime,email,username,password;
+    private SimpleStringProperty ime=new SimpleStringProperty(""),prezime=new SimpleStringProperty(""),
+            email=new SimpleStringProperty(""),
+            username=new SimpleStringProperty( ""),
+            password=new SimpleStringProperty("");
 
     public Korisnik() {
     }
